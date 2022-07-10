@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Kerwinnnn</title>
   
-  
+  <subtitle>Kerwinnnn</subtitle>
   <link href="https://kerwinnnn.github.io/atom.xml" rel="self"/>
   
   <link href="https://kerwinnnn.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://kerwinnnn.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Kerwinnnn</name>
     
   </author>
   
