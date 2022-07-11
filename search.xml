@@ -21,7 +21,7 @@
       <link href="/2022/07/10/test/"/>
       <url>/2022/07/10/test/</url>
       
-        <content type="html"><![CDATA[<p>Syntax highlighted code block</p><h1 id="Header-1"><a href="#Header-1" class="headerlink" title="Header 1"></a>Header 1</h1><h2 id="Header-2"><a href="#Header-2" class="headerlink" title="Header 2"></a>Header 2</h2><h3 id="Header-3"><a href="#Header-3" class="headerlink" title="Header 3"></a>Header 3</h3><ul><li>Bulleted</li><li>List</li></ul><ol><li>Numbered</li><li>List</li></ol><p><strong>Bold</strong> and <em>Italic</em> and <code>Code</code> text</p><p><a href="url">Link</a> and <img src="src" alt="Image"></p>]]></content>
+        <content type="html"><![CDATA[<p>Syntax highlighted code block</p><h1 id="Header-1"><a href="#Header-1" class="headerlink" title="Header 1"></a>Header 1</h1><h2 id="Header-2"><a href="#Header-2" class="headerlink" title="Header 2"></a>Header 2</h2><h3 id="Header-3"><a href="#Header-3" class="headerlink" title="Header 3"></a>Header 3</h3><ul><li>Bulleted</li><li>List</li></ul><ol><li>Numbered</li><li>List</li></ol><p><strong>Bold</strong> and <em>Italic</em> and <code>Code</code> text</p><p><a href="url">Link</a> and <img src="/2022/07/10/test/src" alt="Image"></p>]]></content>
       
       
       
