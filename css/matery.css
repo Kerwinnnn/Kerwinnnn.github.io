@@ -240,6 +240,7 @@ mark {
     margin-bottom: 0;
 }
 
+/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
 .bg-color {
     background-image: linear-gradient(to right, #67F9D4 0%, #FF9554 100%);
 }
@@ -593,8 +594,10 @@ header .go-back i {
     font-weight: 400;
 }
 
+/* 如果想去掉banner图的颜色渐变效果，请将以下的css属性注释掉或者删除掉即可 */
+/* 动态切换背景颜色 */
+/*
 @-webkit-keyframes rainbow {
-
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -637,10 +640,11 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+}*/
 
+/* 动态切换背景颜色 */
+/*
 @keyframes rainbow {
-
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -684,6 +688,30 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 }
+*/
+
+/* 设置滚动条 */
+/* 设置滚动条整体部分 */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+/* 设置滚动滑块 */
+::-webkit-scrollbar-thumb {
+    /* 设置滚动滑块的颜色 */
+    background-color: #FF9554;
+    /*background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);*/
+    /* 设置滚动滑块圆角半径 */
+    border-radius: 3em;
+}
+/* 设置滚动轨道 */
+::-webkit-scrollbar-track {
+    /* 设置滚动轨道颜色 */
+    background-color: rgba(190,194,197,1);
+    /* 设置滚动轨道圆角半径 */
+    border-radius: 0em;
+}
+
 
 .index-card {
     margin-top: -10px;
